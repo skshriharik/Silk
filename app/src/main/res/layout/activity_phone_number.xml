@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/phoneNumber"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_centerVertical="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PhoneNumber">
+
+
+    <ImageView
+        android:id="@+id/phone_number_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="58dp"
+        android:src="@drawable/front" />
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="179dp"
+        android:text="@string/welcome"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/phoneText"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="234dp">
+
+        <EditText
+            android:id="@+id/loginPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:hint="@string/phone"
+            android:inputType="number"
+            android:textColor="@color/colorPrimaryDark"
+
+            android:textColorHint="@color/colorPrimary"
+
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_otp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="151dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/otp"
+        android:textColor="@color/background_material_light" />
+
+
+
+</RelativeLayout>

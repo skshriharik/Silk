@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SilkBoard</string>
+    <string name="welcome">Welcome to SilkBoard App</string>
+    <string name="phone">Enter Your Phone Number</string>
+    <string name="otpenter">Enter the OTP </string>
+    <string name="otpr">Enter the OTP Recived </string>
+    <string name="otp">Genrate OTP</string>
+    <string name="submit">Submit</string>
+    <string name="firstName">Enter Your Full Name</string>
+    <string name="fatherName">Enter Your Fathers Name</string>
+    <string name="landline">Land Line Number </string>
+    <string name="address">Address</string>
+    <string name="doorNo">Door No</string>
+    <string name="area">Area </string>
+    <string name="taluka">Taluk</string>
+    <string name="district">District</string>
+    <string name="next">Next</string>
+</resources>
